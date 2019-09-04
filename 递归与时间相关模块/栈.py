@@ -1,0 +1,10 @@
+stack =[]
+stack.append("a")
+stack.append("b")
+stack.append("c")
+stack.append("d")
+print(stack)
+stack.pop(1)
+print(stack)
+stack.pop(2)
+print(stack)
