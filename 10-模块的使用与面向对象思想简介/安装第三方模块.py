@@ -9,4 +9,9 @@ Windows:勾选了pip和Add python.exe to Path
 from PIL import Image
 
 #打开图片
-im = Image.open()
+im = Image.open("img1.jpg")
+#查看图片的信息
+print(im.format, im.size, im.mode)
+#设置图片的大小
+im.thumbnail(150,100)
+im.save("temp.jpg", "JPEG")
