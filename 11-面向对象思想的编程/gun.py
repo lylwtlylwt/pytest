@@ -7,4 +7,4 @@ class Gun(object):
             print("没有子弹了！")
         else:
             self.bulletbox.bulletcount -= 1
-            print("子弹还有%d发！"%self.bulletbox.bulletcount)
+            print("子弹还有%d发！" % self.bulletbox.bulletcount)
